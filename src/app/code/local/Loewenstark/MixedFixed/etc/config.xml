@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_MixedFixed>
+            <version>0.0.1</version>
+        </Loewenstark_MixedFixed>
+    </modules>
+    <global>
+        <models>
+            <ls_mixedfixed>
+                <class>Loewenstark_MixedFixed_Model</class>
+            </ls_mixedfixed>
+        </models>
+        <blocks>
+            <ls_mixedfixed>
+                <class>Loewenstark_MixedFixed_Block</class>
+            </ls_mixedfixed>
+        </blocks>
+        <helpers>
+            <ls_mixedfixed>
+                <class>Loewenstark_MixedFixed_Helper</class>
+            </ls_mixedfixed>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <ls_mixedfixed before="Mage_Adminhtml">Loewenstark_MixedFixed_Adminhtml</ls_mixedfixed>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

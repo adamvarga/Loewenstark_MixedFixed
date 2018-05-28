@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_MixedFixed>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Loewenstark_MixedFixed>
+    </modules>
+</config>
